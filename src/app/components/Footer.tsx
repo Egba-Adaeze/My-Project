@@ -24,7 +24,7 @@ function Footer() {
           <span className="uppercase text-3xl font-black ml-1">Academy</span>
         </div>
       </section>
-      <section className="grid grid-cols-2 gap-7 mt-10 m-5">
+      <section className="grid md:grid-cols-2 gap-7 mt-10 m-5">
         <div className="flex gap-7">
           <div>
             <p className="mb-3 font-semibold text-xl uppercase">
@@ -71,7 +71,7 @@ function Footer() {
             <p className="mb-3 font-semibold text-xl uppercase">new comment</p>
             <ul className="space-y-6">
               {[..."   "].map(() => (
-                <li className="bg-[#F5F5F5] p-4">
+                <li key={Math.random()} className="bg-[#F5F5F5] p-4">
                   <p key={Math.random()} className="font-medium text-[#3E3232]">
                     Ellsmartx
                   </p>

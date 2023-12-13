@@ -4,7 +4,7 @@ import ICONS from "../asset/icons";
 
 function HeaderMenu() {
   return (
-    <div className="flex justify-between mt-5">
+    <div className="grid md:grid-cols-3 sm:grid-cols-2 mt-5">
       <section className="flex items-center gap-3">
         <Image
           className="rounded-md"

@@ -10,7 +10,7 @@ function NavBar() {
           <Image alt="siteicon" width={31} src={ICONS.main} />
           <span className="uppercase text-3xl font-black ml-1">Academy</span>
         </div>
-        <ul className="flex gap-3 ml-5">
+        <ul className="flex gap-3 ml-5 md:text-base text-sm">
           <li>Categories</li>
           <li>Teach</li>
           <li>Contact Us</li>
@@ -31,7 +31,7 @@ function NavBar() {
             src={ICONS.search}
           />
         </div>
-        <div className="ml-3 flex items-center">
+        <div className="ml-3 items-center md:flex hidden">
           <div className="flex">
             <Image
               className="rounded-md"

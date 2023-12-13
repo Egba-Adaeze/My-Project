@@ -4,7 +4,7 @@ import IMAGES from "../asset/images";
 
 function CallToAction() {
   return (
-    <div className="flex justify-between mt-4">
+    <div className="flex md:flex-row flex-col justify-between mt-4">
       <section className="mt-28">
         <div className="text-4xl font-extrabold space-y-4 max-w-[601px]">
           🙌 Hello friends <br /> I am Sofia and we want to start <br /> A
